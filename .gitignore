@@ -1,0 +1,5 @@
+# rust build
+/target
+
+# flake & direnv
+.direnv
