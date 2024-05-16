@@ -1,5 +1,9 @@
-# rust build
-/target
-
-# flake & direnv
 .direnv
+venv
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+

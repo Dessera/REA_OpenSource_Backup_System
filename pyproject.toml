@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rea-opensource-backup-system"
+version = "0.1.0"
+description = ""
+authors = ["Dessera <1533653159@qq.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+uvicorn = { extras = ["standard"], version = "^0.29.0" }
+tortoise-orm = { extras = ["asyncpg"], version = "^0.20.1" }
+nuitka = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

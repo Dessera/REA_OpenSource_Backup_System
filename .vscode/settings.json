@@ -1,0 +1,14 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "rea_db_dev",
+      "database": "rea_db_dev",
+      "username": "rea_db_dev",
+      "password": "kLLVVn6874xiPOMO"
+    }
+  ]
+}
